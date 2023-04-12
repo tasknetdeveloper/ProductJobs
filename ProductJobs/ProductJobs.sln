@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisWorkOM", "..\RedisWorkOM\RedisWorkOM.csproj", "{0BBDEC2B-BBB1-43EF-AD5E-E9AE1B6CCAC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{59ABC655-88BD-4E54-A6DF-943B6AB1AA1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "Logger\Logger.csproj", "{9C1D3637-AAF7-4542-8990-EA5C908B48F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadEmulator", "ReadEmulator\ReadEmulator.csproj", "{AFAEE590-96D7-4D3C-A5FF-7E5B29D12E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertEmulator", "InsertEmulator\InsertEmulator.csproj", "{6D08CDF5-1396-41E6-B685-AFE1807B3A67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBWork", "DBWork\DBWork.csproj", "{904D2277-4013-408B-B047-DECB5409A043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "OrderApi\OrderApi.csproj", "{7FD94906-4FB2-4CA4-9CE8-9816E515D6C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BBDEC2B-BBB1-43EF-AD5E-E9AE1B6CCAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBDEC2B-BBB1-43EF-AD5E-E9AE1B6CCAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBDEC2B-BBB1-43EF-AD5E-E9AE1B6CCAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBDEC2B-BBB1-43EF-AD5E-E9AE1B6CCAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ABC655-88BD-4E54-A6DF-943B6AB1AA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ABC655-88BD-4E54-A6DF-943B6AB1AA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ABC655-88BD-4E54-A6DF-943B6AB1AA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ABC655-88BD-4E54-A6DF-943B6AB1AA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1D3637-AAF7-4542-8990-EA5C908B48F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1D3637-AAF7-4542-8990-EA5C908B48F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1D3637-AAF7-4542-8990-EA5C908B48F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1D3637-AAF7-4542-8990-EA5C908B48F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAEE590-96D7-4D3C-A5FF-7E5B29D12E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAEE590-96D7-4D3C-A5FF-7E5B29D12E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAEE590-96D7-4D3C-A5FF-7E5B29D12E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAEE590-96D7-4D3C-A5FF-7E5B29D12E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D08CDF5-1396-41E6-B685-AFE1807B3A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D08CDF5-1396-41E6-B685-AFE1807B3A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D08CDF5-1396-41E6-B685-AFE1807B3A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D08CDF5-1396-41E6-B685-AFE1807B3A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904D2277-4013-408B-B047-DECB5409A043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904D2277-4013-408B-B047-DECB5409A043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904D2277-4013-408B-B047-DECB5409A043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904D2277-4013-408B-B047-DECB5409A043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD94906-4FB2-4CA4-9CE8-9816E515D6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD94906-4FB2-4CA4-9CE8-9816E515D6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD94906-4FB2-4CA4-9CE8-9816E515D6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD94906-4FB2-4CA4-9CE8-9816E515D6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A847119-4A54-439B-AA93-1507057B3701}
+	EndGlobalSection
+EndGlobal
